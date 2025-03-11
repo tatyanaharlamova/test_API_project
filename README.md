@@ -1,4 +1,4 @@
-#**ПРОЕКТ АВТОМАТИЗАЦИИ API - ТЕСТОВ**
+**ПРОЕКТ АВТОМАТИЗАЦИИ API - ТЕСТОВ**
 
 Проект тестового задания по автоматизации API-тестов для ресурса Posts на сайте https://jsonplaceholder.typicode.com/
 
@@ -22,7 +22,7 @@ pytest test_posts.py -v --html=report.html
 ```
 Отчет будет сохранен в файле report.html
 
-***2. Просмотр файла report.html в браузере***
+***3. Просмотр файла report.html в браузере***
 
 ```bash
 python -m webbrowser -t report.html
