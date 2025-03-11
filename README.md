@@ -20,4 +20,12 @@ cd test_API_projec
 ```bash
 pytest test_posts.py -v --html=report.html
 ```
-Отчет будет сохранен в файле report.html, который можно открыть в браузере.
+Отчет будет сохранен в файле report.html
+
+***2. Просмотр файла report.html в браузере***
+
+```bash
+python -m webbrowser -t report.html
+
+```
+
